@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.favourite-places-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
+    background-size: cover;
+    height: 100vh;
+    padding: 24px;
+}
+
+.favourite-places-heading {
+    color: white;
+    font-size: 28px;
+    font-family: "Roboto";
+    font-weight: bold;
+    
+}
+
+.favourite-lace-card-container {
+    border-radius: 8px;
+    background-color: white;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+
+.favourite-palce-card-heading {
+    color: #0f0e46;
+    font-size: 23px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.favourite-palce-card-description {
+    color: #6c6b70;
+    font-size: 13px;
+    font-family: "Roboto";
+}
+
+
+.favourite-palce-card-image {
+    width: 80px;
+    height: 100px;
+}
