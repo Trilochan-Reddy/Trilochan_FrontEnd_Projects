@@ -1,0 +1,8 @@
+concepts learnt
+
+
+<div class="container">
+</div>   --------->added laft and right spaces around the container 
+
+<div class="container-fluid">
+</div>   --------->no left and right spaces around the container
