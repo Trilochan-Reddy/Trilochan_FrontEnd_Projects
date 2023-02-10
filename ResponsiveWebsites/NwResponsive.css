@@ -123,22 +123,22 @@
     font-weight: 600;
 }
 
-.explore-menu-section {
+.explore-courses-section {
     background-color: white;
 }
 
-.menu-section-heading {
+.courses-section-heading {
     color: #183b56;
     font-family: "Roboto";
     font-size: 28px;
     font-weight: 700;
 }
 
-.menu-item-image {
+.courses-item-image {
     border-radius: 16px;
 }
 
-.menu-card-title {
+.courses-card-title {
     color: #323f4b;
     font-family: "Roboto";
     font-size: 18px;
@@ -146,14 +146,58 @@
     margin-top: 24px;
 }
 
-.menu-item-link {
+.courses-item-link {
     color: #d0b200;
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
 }
 
-.menu-item-card {
+.courses-item-card {
     border-radius: 16px;
     
+}
+
+
+.trilochan-developer-section {
+    background-color: #f9fbfe;
+}
+.developer-section-img {
+    width: 270px;
+    height:300px;
+    border-radius: 10px;
+}
+.developer-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+.developer-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+.custom-button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.sravani-developer-section {
+    background-color: white;
+}
+
+.list-items{
+    list-style-type:square;
+}
+
+.developer-role-style{
+    color:#06c;
+    font-size: 18px;
+    font-style: italic;
 }
