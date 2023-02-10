@@ -25,93 +25,152 @@
     font-family: "Roboto";
 }
 
-.banner-section-bg-container{
-    height: 100vh;
+.food-munch-logo {
+    width: 80px;
+    height: 70px;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.banner-section-bg-container {
     background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    height: 100vh;
     background-size: cover;
 }
 
-.banner-heading{
+.banner-heading {
     color: white;
     font-family: "Roboto";
     font-size: 45px;
     font-weight: 300;
 }
 
-.banner-caption{
+.banner-caption {
     color: #f5f7fa;
     font-family: "Roboto";
     font-size: 24px;
-    font-weight: 300;    
+    font-weight: 300;
 }
 
-.custom-button-view{
-    width: 130px;
-    height: 45px;
+.custom-button {
     color: white;
     background-color: #d0b200;
-    border-width: 0px;
-    border-radius: 8px;
-    margin-right: 10px;
-}
-
-.custom-button-ordernow{
     width: 130px;
     height: 45px;
-    color: #d0b200;
-    background-color: transparent;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #d0b200;
+    border-width: 0;
     border-radius: 8px;
     margin-right: 10px;
 }
 
-.wcu-section{
+.custom-outline-button {
+    color: #d0b200;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+}
+
+.wcu-section {
     background-color: #f9fbfe;
 }
 
-.wcu-section-heading{
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 28px;
+.wcu-section-heading {
     color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
 }
 
-.wcu-section-description{
+.wcu-section-description {
+    color: #5a7184;
     font-family: "Roboto";
     font-size: 16px;
-    color: #5a7184;    
 }
 
-.wcu-card{
-    background-color: white; 
+.wcu-card {
+    text-align: center;
+    background-color: white;
     border-style: solid;
     border-width: 1px;
     border-color: #e5eaf4;
     border-radius: 16px;
 }
 
-.wcu-card-image{
-    height: 90px;
+.wcu-card-image {
     width: 87px;
+    height: 90px;
 }
 
-.wcu-card-title{
+.wcu-card-title {
+    color: #323f4b;
     font-family: "Roboto";
-    font-weight: 500;
     font-size: 22px;
-    color: #323f4b;   
+    font-weight: 500;
 }
 
-.wcu-card-description{
+.wcu-card-description {
+    color: #7b8794;
     font-family: "Roboto";
     font-size: 16px;
-    color: #7b8794;     
 }
 
-.offers{
-  color: #323f4b;
-  font-style: italic;
-  font-weight: 600;    
+.offers {
+    color: #323f4b;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.explore-menu-section {
+    background-color: white;
+}
+
+.menu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.menu-item-image {
+    border-radius: 16px;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-item-card {
+    border-radius: 16px;
 }

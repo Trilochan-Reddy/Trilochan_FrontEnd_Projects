@@ -26,3 +26,5 @@ shadow-none
 shadow-sm
 shadow
 shadow-lg
+
+<link rel="stylesheet" href="foodmunch.css" />
