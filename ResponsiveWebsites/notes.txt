@@ -6,3 +6,23 @@ concepts learnt
 
 <div class="container-fluid">
 </div>   --------->no left and right spaces around the container
+
+span element 
+<span></span> occupies only required space
+
+percentages:
+px vs percentages
+percentages particular percentage of a container
+width:25%;   
+in bootstrap: w-25 w-25 w-50 w-75 w-100
+
+
+bootstrap icons: https://icons.getbootstrap.com/
+
+
+boogtstrap utilities :
+Shadow
+shadow-none
+shadow-sm
+shadow
+shadow-lg
