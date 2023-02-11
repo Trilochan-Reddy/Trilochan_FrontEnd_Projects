@@ -24,6 +24,10 @@
     color: #323f4b;
     font-family: "Roboto";
 }
+#navitem5 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
 
 .banner-section-bg-container{
     height: 100vh;
@@ -162,6 +166,10 @@
 .trilochan-developer-section {
     background-color: #f9fbfe;
 }
+.trinadh-developer-section {
+    background-color: #f9fbfe;
+}
+
 .developer-section-img {
     width: 270px;
     height:300px;
@@ -192,6 +200,10 @@
     background-color: white;
 }
 
+.sasank-developer-section {
+    background-color: white;
+}
+
 .list-items{
     list-style-type:square;
 }
@@ -201,3 +213,30 @@
     font-size: 18px;
     font-style: italic;
 }
+
+
+.follow-us-section {
+    background-color: white;
+  }
+  .follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+  }
+  .icon {
+    color: #d0b200;
+    font-size: 35px;
+  }
