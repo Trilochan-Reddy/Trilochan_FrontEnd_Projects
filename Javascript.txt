@@ -1,0 +1,13 @@
+console.log("hello World!")
+
+we create a variable using let
+let message; here message --> variable name
+let message="hello trilochan";
+
+
+DOM and event fundamentals:
+document object model
+dom methods
+events --onclick event
+
+DOM -->is a structured representation of the content in the document created by the browser
