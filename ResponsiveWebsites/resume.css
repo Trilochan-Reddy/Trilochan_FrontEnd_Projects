@@ -1,0 +1,11 @@
+
+.resume-bg-container{
+    background-color: azure;
+    height: 100vh;
+}
+
+.resume-profile-image{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+}
