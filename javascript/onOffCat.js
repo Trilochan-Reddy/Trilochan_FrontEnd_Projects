@@ -1,8 +1,8 @@
-let bulbImageElement=document.getElementById("buldImage");
+let bulbImageElement=document.getElementById("bulbImage");
 let catImageElemet=document.getElementById("catImage");
 let switchStatusElement=document.getElementById("switchStatus");
-let offButtonElement=document.getElementById("offButton");
-let onButtonElement=document.getElementById("onButton");
+let offButtonElement=document.getElementById("offSwitch");
+let onButtonElement=document.getElementById("onSwitch");
 
 
 function switchOff(){
