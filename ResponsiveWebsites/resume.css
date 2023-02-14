@@ -1,8 +1,5 @@
 
-.resume-bg-container{
-    background-color: azure;
-    height: 100vh;
-}
+
 
 .resume-profile-image{
     height: 150px;
@@ -17,12 +14,14 @@
 }
 
 .resume-profile-section-heading{
-    font-size: 26px;
+    font-size: 18px;
     font-weight: bold;
     color: black;
     font-family: "Roboto";
 }
 
 .resume-profile-section-description{
-    font-size: 20px;   
+    font-size: 16px; 
+    color: black;
+    font-family: "Roboto";  
 }
