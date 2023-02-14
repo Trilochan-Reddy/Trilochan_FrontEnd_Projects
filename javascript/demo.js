@@ -5,4 +5,6 @@ console.log(heading.textContent);
 
 function a(){
     console.log("hello trilochan u clicked change heading button");
+    heading.textContent="Text Changed";
+    heading.style.color="red";
 }
