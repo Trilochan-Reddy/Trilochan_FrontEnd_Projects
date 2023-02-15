@@ -13,5 +13,5 @@ function a(){
 function signInText(){
     let inputValue=inputName.value;
     let signInTextValue=document.getElementById("signinText");
-    signInTextValue.textContent="Hi "+inputValue+" Verifying your account.";
+    signInTextValue.textContent="Hi "+inputValue+", Verifying your account...";
 }
