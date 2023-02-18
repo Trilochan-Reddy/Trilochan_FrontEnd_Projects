@@ -16,6 +16,12 @@ lastItem=myArray.pop();
 console.log(lastItem);
 
 // creating h1 element in js
-let h1Element=document.createElement("h1");
-h1Element.textContent="Web Technologies";
-document.body.appendChild(h1Element);
+// let h1Element=document.createElement("h1");
+// h1Element.textContent="Web Technologies";
+// document.body.appendChild(h1Element);
+
+// for..of loop
+
+for (let eachItem of myArray){
+    console.log(eachItem);
+}
