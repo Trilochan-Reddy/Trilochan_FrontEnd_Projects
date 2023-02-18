@@ -25,6 +25,15 @@ removeStyles.onclick=function(){
 demoContainerElement.appendChild(buttonElement);
 demoContainerElement.appendChild(removeStyles);
 
+let inputElement=document.createElement("input");
+inputElement.type="checkbox";
+inputElement.id="myCheckBox1";
+let lableElement=document.createElement("label");
+lableElement.textContent="Graduated";
+// lableElement.htmlFor="myCheckBox1";
+lableElement.setAttribute("for","myCheckBox1");
+demoContainerElement.appendChild(inputElement);
+demoContainerElement.appendChild(lableElement);
 
 
 function a(){
