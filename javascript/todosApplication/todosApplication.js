@@ -1,6 +1,8 @@
 let todoItemsContainer=document.getElementById("todoItemsContainer");
 let saveTodoButton=document.getElementById("saveTodoButton");
 
+// localStorage.removeItem("todoList");
+
 
 
 
@@ -48,13 +50,31 @@ function onDeleteTodo(todoId){
     })
     // console.log(deletedTodoitemIndex);
     todoList.splice(deletedTodoitemIndex,1);
+    
 
 }
 
-function onTodoStatusChange(checkBoxId,labelId){
+function onTodoStatusChange(checkBoxId,labelId,todoId){
     // let checkBoxelement=document.getElementById(checkBoxId);
     let lableElement=document.getElementById(labelId);
     lableElement.classList.toggle("checked");
+    let todoItemIndex=todoList.findIndex(function(eachTodo){
+        let eachTodoId="todo"+eachTodo.uniqueNo;
+        if (eachTodoId===todoId){
+            return true;
+        }
+        else{
+            return false;
+        }
+    })
+    console.log(todoItemIndex)
+    let todoObject=todoList[todoItemIndex];
+    if (todoObject.isChecked===true){
+        todoObject.isChecked=false;
+    }
+    else{
+        todoObject.isChecked=true;
+    }
     // console.log(checkBoxelement.checked);
 
     // if (checkBoxelement.checked===true){
@@ -83,8 +103,9 @@ function createAndAppendTodo(todo){
     inputElement.type="checkbox";
     inputElement.id=checkBoxId;
     inputElement.classList.add("checkbox-input");
+    inputElement.checked=todo.isChecked;
     inputElement.onclick=function(){
-        onTodoStatusChange(checkBoxId,labelId);
+        onTodoStatusChange(checkBoxId,labelId,todoId);
     }
     todoElement.appendChild(inputElement);
 
@@ -95,6 +116,9 @@ function createAndAppendTodo(todo){
     let labelElement=document.createElement("label");
     labelElement.textContent=todo.text;
     labelElement.id=labelId;
+    if (todo.isChecked===true){
+        labelElement.classList.add("checked");
+    }
     labelElement.classList.add("checkbox-label");
     labelElement.setAttribute("for",checkBoxId);
     labelContainer.appendChild(labelElement);
@@ -131,8 +155,9 @@ function onAddTodo(){
     todoCount=todoCount+1
 
     let newTodo={
-        text:userInputValue,
-        uniqueNo:todoCount
+        text : userInputValue,
+        uniqueNo : todoCount,
+        isChecked:false
     }
     todoList.push(newTodo);
     console.log(todoList);
