@@ -34,8 +34,20 @@ let todoCount=todoList.length;
 
 function onDeleteTodo(todoId){
     let todoElement=document.getElementById(todoId);
-    console.log(todoElement);
+    // console.log(todoElement);
     todoItemsContainer.removeChild(todoElement);
+
+    let deletedTodoitemIndex=todoList.findIndex(function(eachTodo){
+        let eachTodoId="todo"+eachTodo.uniqueNo;
+        if (todoId===eachTodoId){
+            return true
+        }
+        else{
+            return false
+        }
+    })
+    // console.log(deletedTodoitemIndex);
+    todoList.splice(deletedTodoitemIndex,1);
 
 }
 
