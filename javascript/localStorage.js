@@ -5,19 +5,24 @@
 localStorage.setItem("Name","Trilocahn");
 localStorage.setItem("Gender","Male");
 localStorage.setItem("City","Hyderabad");
+localStorage.setItem("age","26");
 
 // getItem()
+// localStorage getItem Syntax
 // localStorage.getItem("key");
 
 let Name=localStorage.getItem("Name");
 let Gender=localStorage.getItem("Gender");
 let City=localStorage.getItem("City");
 let Occupation=localStorage.getItem("occupation");
+let Age=localStorage.getItem("age");
 
 console.log(Name);
 console.log(Gender);
 console.log(City);
 console.log(Occupation);
+console.log(Age);
+console.log(typeof(Age));
 
 let bgContainer=document.getElementById("bgContainer");
 bgContainer.style.color="red";
