@@ -1,4 +1,4 @@
-let myArr=[1,2,3,4];
+let myArr=[1,2,3,4,5];
 
 // deleting spesidied no of elementsusing splice
 // 1.1 splice()
