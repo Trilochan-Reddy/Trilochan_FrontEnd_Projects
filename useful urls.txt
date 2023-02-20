@@ -73,3 +73,11 @@ Dr. Chandra Mouli : https://res.cloudinary.com/dpny4vmnc/image/upload/v167605543
 font awesome icons: https://fontawesome.com/
 un: trilochanreddy100@gmail.com
 psw: Trilochan@123
+
+
+
+northwest color : #006747;
+apple website : #06c
+
+
+Cropping Photo Tool: https://www.befunky.com/create/resize-image/

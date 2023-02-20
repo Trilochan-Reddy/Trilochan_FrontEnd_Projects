@@ -31,7 +31,7 @@
 
 .banner-section-bg-container{
     height: 100vh;
-    background-image: url("https://23fb88ad5ca22a1b4d32-e1951aed44f4258f5fd1721b94cf0277.ssl.cf5.rackcdn.com/cdn_mBFfaFY640SA2iY3QipDC79x8vFFK_w2.jpg");
+    background-image: url("https://res.cloudinary.com/dpny4vmnc/image/upload/v1676852905/IMG-6687_ghpsso.jpg");
     background-size: cover;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .banner-caption{
-    color: #f5f7fa;
+    color:white;
     font-family: "Roboto";
     font-size: 24px;
     font-weight: 300;    
@@ -62,8 +62,8 @@
 .custom-button-share{
     width: 130px;
     height: 45px;
-    color: #d0b200;
-    background-color: transparent;
+    color: white;
+    background-color: #d0b200;
     border-width: 1px;
     border-style: solid;
     border-color: #d0b200;
@@ -239,4 +239,14 @@
   .icon {
     color: #d0b200;
     font-size: 35px;
+  }
+
+  .nw-images-container{
+    height: 100vh;
+    
+  }
+
+  .courasal-image{
+    height: 700px;
+    border-radius: 25px;
   }
