@@ -29,47 +29,15 @@ GENERATING OWN URLS :https://cloudinary.com/console/c-eacbea1b37e5979e8f8e2008ed
 UN: trilochanreddy100@gmail.com
 Chintu@18
 
-concepts learnt
-
-
-<div class="container">
-</div>   --------->added laft and right spaces around the container 
-
-<div class="container-fluid">
-</div>   --------->no left and right spaces around the container
-
-span element 
-<span></span> occupies only required space
-
-percentages:
-px vs percentages
-percentages particular percentage of a container
-width:25%;   
-in bootstrap: w-25 w-25 w-50 w-75 w-100
-
-
 bootstrap icons: https://icons.getbootstrap.com/
 
 
-boogtstrap utilities :
-Shadow
-shadow-none
-shadow-sm
-shadow
-shadow-lg
+to navigate within the page include below code just above closing body tag
 
+<script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
 
-images links
-trilochan : https://res.cloudinary.com/dpny4vmnc/image/upload/v1626781770/IMG_20210411_133329_d3iqn2.jpg
-sravani : https://res.cloudinary.com/dpny4vmnc/image/upload/v1676054955/322287683_684873873380719_5373374178165585266_n_kgss2y.jpg
-trinadh : https://res.cloudinary.com/dpny4vmnc/image/upload/v1676055082/trinadh_dk0wtw.jpg
-sashank : https://res.cloudinary.com/dpny4vmnc/image/upload/v1676055074/sasank_sc4pgn.jpg
-Dr. Chandra Mouli : https://res.cloudinary.com/dpny4vmnc/image/upload/v1676055430/Client_lwliaq.jpg
+css gradiants:
+transitions bw 2 or more colors
 
-
-
-
-
-font awesome icons: https://fontawesome.com/
-un: trilochanreddy100@gmail.com
-psw: Trilochan@123
+linear gradient--->in 1 particular direction
+radial gradient---> outside to inside
