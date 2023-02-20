@@ -28,6 +28,10 @@
     color: #323f4b;
     font-family: "Roboto";
 }
+#navitem6 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
 
 .banner-section-bg-container{
     height: 100vh;
@@ -48,6 +52,9 @@
     font-size: 24px;
     font-weight: 300;    
 }
+
+
+
 
 .custom-button-view{
     width: 130px;
