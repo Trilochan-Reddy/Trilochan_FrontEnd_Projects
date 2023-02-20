@@ -1,0 +1,10 @@
+image path : /Images/auth/login.jpeg
+
+<a href="https://www.nwmissouri.edu" title="Return to Northwest"><img alt="Northwest Missouri State University" height="79px" src="https://www.nwmissouri.edu/layout/v2019/images/svg/logo-n.svg" width="74px"></a>
+
+
+s546612
+Trilochan
+
+S546609
+Trilochan
