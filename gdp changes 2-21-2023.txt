@@ -1,0 +1,8 @@
+Password should be of min 8 chars
+
+once the request is approved the status shouls be changed from request requested tooo request approved and return button should be disabled.
+once the asset returu request is approved asset should be added back to asset list.
+once the return request is approved by the admin student should be albe to request for a new asset.
+
+
+In Admin dashboard assigned quantity is showing as a negative (-ve) number
