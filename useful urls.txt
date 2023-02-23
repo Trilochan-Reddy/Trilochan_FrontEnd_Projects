@@ -86,3 +86,7 @@ Cropping Photo Tool: https://www.befunky.com/create/resize-image/
 gorest.co.in url --> https://gorest.co.in/public-api/users
 
 home page of go rest.co.in ---> https://gorest.co.in/
+
+
+
+ccbp url api: https://apis.ccbp.in/wiki-search?search=Rahul

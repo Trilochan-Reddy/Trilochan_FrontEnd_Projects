@@ -1,6 +1,7 @@
 let person={
     name:"Trilochan",
     age:26,
+    arr:[1,2,3],
     "1":"value1",
     "my choice":"Value2"
 };
@@ -22,10 +23,12 @@ console.log(person[a]);
 console.log(person.a);
 console.log("--------------------");
 // object Destructuring
-let {name,age,gender}=person;
+let {name,age,gender,arr}=person;
+console.log("objetc destructuring");
 console.log(name);
 console.log(age);
 console.log(gender);
+console.log(arr);
 
 
 console.log("--------------------");
