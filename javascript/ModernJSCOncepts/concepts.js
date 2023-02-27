@@ -139,9 +139,15 @@ numbs(3,4);
 
 // template literals
 let myName="Trilochan";
+let details={
+    firstName:"trilochan",
+    lastname:"reddy",
+    age:26
+}
 console.log("---------template literals--------")
 console.log("-embading variable----");
 console.log(`Hello ${myName}`);
+console.log(`my name is ${details.firstName} ${details.lastname}`);
 
 
 
