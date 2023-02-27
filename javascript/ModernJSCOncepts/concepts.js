@@ -146,10 +146,51 @@ let details={
 }
 console.log("---------template literals--------")
 console.log("-embading variable----");
-console.log(`Hello ${myName}`);
+console.log(`Hello ${myName}
+Good Morning
+Have a nice day!
+------------`);
 console.log(`my name is ${details.firstName} ${details.lastname}`);
 
 
 
 console.log("-embading expression----");
 console.log(`the sum of 4 and 5 is  ${4+5}`);
+
+
+// Ternary operator
+let speed=190;
+let message=speed>=100?"Tooo Speedddd":"ok";
+console.log("----------Ternary operator----------")
+console.log(message);
+
+
+// switch Statement
+console.log("-----Switch statements--------")
+let day=0;
+switch (day){
+    case 0:
+        console.log("Sunday");
+        break;
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;            
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;        
+    case 6:
+        console.log("Saturday");
+        break;        
+    default:
+        console.log("Invalid")        
+        break;
+}
