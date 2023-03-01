@@ -92,3 +92,8 @@ home page of go rest.co.in ---> https://gorest.co.in/
 
 
 ccbp url api: https://apis.ccbp.in/wiki-search?search=Rahul
+
+
+
+npm un: trilochanreddy100@gmail.com
+psw: Trilochan@123
