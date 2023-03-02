@@ -60,7 +60,19 @@ function Cricketer(fName,lName){
     this.lName=lName;
 
 }
+// adding property to prototype
+
+Cricketer.prototype.displayFullName=function(){
+    return this.fName+" "+this.lName;
+}
 
 let crickName1=new Cricketer("virat","kohli");
 let crickName2=new Cricketer("sachin","Tendulkar");
-console.log(crickName);
+console.log(crickName1.displayFullName());
+console.log(crickName2);
+console.log(Cricketer.prototype);
+console.log(Object.getPrototypeOf(crickName1)===Object.getPrototypeOf(crickName2));
+console.log(Object.getPrototypeOf(crickName1));
+
+// accessing own properties
+console.log(Object.getOwnPropertyNames(crickName1));
