@@ -97,3 +97,6 @@ ccbp url api: https://apis.ccbp.in/wiki-search?search=Rahul
 
 npm un: trilochanreddy100@gmail.com
 psw: Trilochan@123
+
+
+const url="https://apis.ccbp.in/jokes/random";
