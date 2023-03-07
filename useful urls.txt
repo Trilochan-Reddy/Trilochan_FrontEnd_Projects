@@ -108,3 +108,10 @@ to use react js need to add react cdn within head element
 <script src="https://unpkg.com/react@17.0.0/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.development.js"></script>
 <script src="https://unpkg.com/@babel/standalone@7.12.4/babel.js"></script>
+
+
+creating react application commands
+
+npm install -g create-react-app -->installs create-react-app globally across our environment
+create-react-app myapp --use-npm -->creats myapp folder with create-react-app necessasy libraries
+
