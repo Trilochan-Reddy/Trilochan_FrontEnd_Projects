@@ -1,7 +1,8 @@
 import UserProfile from "./components/UserProfile";
+import {Component} from "react";
 import "./App.css";
 
-const userDetailsList=[
+const initialUserDetailsList=[
   {
     uniqueNo:1,
     imageUrl:"https://res.cloudinary.com/dpny4vmnc/image/upload/v1626781770/IMG_20210411_133329_d3iqn2.jpg",
@@ -28,15 +29,41 @@ const userDetailsList=[
   },
 ];
 
+class App extends Component{
+  state={
+    searchInput:"",
+    userDetailsList:initialUserDetailsList
+  }
 
+  onChangeSearchInput=(event)=>{
+    this.setState({
+      searchInput:event.target.value
+    })
+    // console.log(event.target.value);
+  }
 
-const App =()=>(
-  <div className="list-container">
+  deleteUser=(uniqueNo)=>{
+    console.log(`uniqueNo is ${uniqueNo}`);
+    const {userDetailsList} =this.state;
+    const filteredUserDetails=userDetailsList.filter(eachUser=>eachUser.uniqueNo !==uniqueNo);
+    this.setState({
+      userDetailsList:filteredUserDetails
+    })
+  }
+
+  render (){
+    const {searchInput,userDetailsList}=this.state;
+    console.log(searchInput);
+    const searchResults=userDetailsList.filter((eachUser)=>eachUser.name.includes(searchInput));
+    // console.log(searchResults);
+    return (
+      <div className="list-container">
     <h1 className="title">Users List</h1>
+    <input type="search" value={searchInput} onChange={this.onChangeSearchInput}/>
     <ul>
       {
-        userDetailsList.map((eachItem)=>(
-          <UserProfile userDetails={eachItem} key={eachItem.uniqueNo}/>
+        searchResults.map((eachItem)=>(
+          <UserProfile userDetails={eachItem} key={eachItem.uniqueNo} deleteUser={this.deleteUser}/>
           ))}
       {/*<UserProfile userDetails={userDetailsList[0]}/>
       <UserProfile userDetails={userDetailsList[1]}/>
@@ -44,7 +71,27 @@ const App =()=>(
 <UserProfile userDetails={userDetailsList[3]}/>*/}
     </ul>
   </div>
-)
+    )
+  }
+
+}
+
+// const App =()=>(
+//   <div className="list-container">
+//     <h1 className="title">Users List</h1>
+//     <input type="search" />
+//     <ul>
+//       {
+//         userDetailsList.map((eachItem)=>(
+//           <UserProfile userDetails={eachItem} key={eachItem.uniqueNo}/>
+//           ))}
+//       {/*<UserProfile userDetails={userDetailsList[0]}/>
+//       <UserProfile userDetails={userDetailsList[1]}/>
+//       <UserProfile userDetails={userDetailsList[2]}/>
+// <UserProfile userDetails={userDetailsList[3]}/>*/}
+//     </ul>
+//   </div>
+// )
 // import logo from './logo.svg';
 
 

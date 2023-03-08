@@ -13,6 +13,7 @@
 
 .user-details-container{
     margin-left: 12px;
+    width: 100%;
 }
 
 .user-name{
@@ -28,4 +29,16 @@
     font-family: "Roboto";
     font-size: 14px;
     color:#594ded;
+}
+
+
+.delete-button{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-width: 0px;
+}
+.delete-img{
+    height: 30px;
+    width: 30px; 
 }
