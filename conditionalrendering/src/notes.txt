@@ -1,0 +1,138 @@
+condentional rendering using if else
+
+import Welcome from "./components/welcomeUser";
+import {Component} from "react";
+import "./index.css";
+import "./index.css";
+
+class App extends Component{
+  state={
+    isloggedIn:true
+  }
+
+  renderAuthButton=()=>{
+    const {isloggedIn}=this.state
+    if (isloggedIn===false){
+      return (<button type= "button" className="button">Logout</button>)
+    }
+    return <button type= "button " className="button">Login</button>
+  
+  }
+  render() {
+    return (
+      <div className="container">
+        <Welcome name="Trilochan"/>
+          {this.renderAuthButton()}
+          
+      </div>
+    )
+  }
+}
+
+
+
+export default App;
+
+
+
+
+
+-----------using element variables-------------------
+import Welcome from "./components/welcomeUser";
+import {Component} from "react";
+import "./index.css";
+import "./index.css";
+
+class App extends Component{
+  state={
+    isloggedIn:true
+  }
+
+  
+  render() {
+    const {isloggedIn}=this.state
+    let authButton;
+    if (isloggedIn===true){
+       authButton=<button className="button">Logout </button>
+    }else{
+       authButton=<button className="button">Login</button>
+    } 
+    return (
+      <div className="container">
+        <Welcome name="Trilochan"/>
+          {authButton}  
+      </div>
+    )
+  }
+}
+
+
+
+export default App;
+
+
+
+
+
+
+
+
+
+--------------ternary operator-----------------
+
+import Welcome from "./components/welcomeUser";
+import {Component} from "react";
+import "./index.css";
+import "./index.css";
+
+class App extends Component{
+  state={
+    isloggedIn:true
+  }
+
+  
+  render() {
+    const {isloggedIn}=this.state
+     
+    return (
+      <div className="container">
+        <Welcome name="Trilochan"/>
+          {isloggedIn===true?<button className="button">Logout</button>:<button className="button">Login</button>}  
+      </div>
+    )
+  }
+}
+
+
+
+export default App;
+
+
+
+-------------when is loggedin is false we want to display no element in ternary operator
+import Welcome from "./components/welcomeUser";
+import {Component} from "react";
+import "./index.css";
+import "./index.css";
+
+class App extends Component{
+  state={
+    isloggedIn:false
+  }
+
+  
+  render() {
+    const {isloggedIn}=this.state
+     
+    return (
+      <div className="container">
+        <Welcome name="Trilochan"/>
+          {isloggedIn===true?<button className="button">Logout</button>:null}  
+      </div>
+    )
+  }
+}
+
+
+
+export default App;
