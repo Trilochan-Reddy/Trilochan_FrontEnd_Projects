@@ -1,5 +1,5 @@
 import Welcome from "./components/classComponent"
 const App = ()=>{
-  return <Welcome name="Trilochan"/>
+  return <Welcome greeting="Hi"/>
 }
 export default App;
