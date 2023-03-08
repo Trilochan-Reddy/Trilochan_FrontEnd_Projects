@@ -122,3 +122,10 @@ https://www.codecademy.com/learn/paths/web-development?g_network=g&g_productchan
 
 cross button image link:
 https://assets.ccbp.in/frontend/react-js/cross-img.png
+
+
+
+
+histoty image: https://assets.ccbp.in/frontend/react-js/history-website-logo-img.png 
+search image: https://assets.ccbp.in/frontend/react-js/search-img.png 
+delete image : https://assets.ccbp.in/frontend/react-js/delete-img.png
