@@ -115,3 +115,8 @@ creating react application commands
 npm install -g create-react-app -->installs create-react-app globally across our environment
 create-react-app myapp --use-npm -->creats myapp folder with create-react-app necessasy libraries
 
+
+
+codecadamy frontendcourse link:
+https://www.codecademy.com/learn/paths/web-development?g_network=g&g_productchannel=&g_adid=624888208017&g_locinterest=&g_keyword=learn%20react%20js&g_acctid=243-039-7011&g_adtype=&g_keywordid=kwd-339282936635&g_ifcreative=&g_campaign=account&g_locphysical=9023314&g_adgroupid=105441863750&g_productid=&g_source={sourceid}&g_merchantid=&g_placement=&g_partition=&g_campaignid=10115011572&g_ifproduct=&utm_id=t_kwd-339282936635:ag_105441863750:cp_10115011572:n_g:d_c&utm_source=google&utm_medium=paid-search&utm_term=learn%20react%20js&utm_campaign=US_Language:_Basic_-_Broad&utm_content=624888208017&g_adtype=search&g_acctid=243-039-7011&gclid=EAIaIQobChMIpqSkm_PM_QIVLQJMCh27DA5TEAAYASAAEgJjAPD_BwE
+
