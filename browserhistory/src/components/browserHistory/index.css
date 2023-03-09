@@ -102,8 +102,8 @@
 
 
 .delete-button{
-    height: 12px;
-    width: 12px;
+    height: 14px;
+    width: 14px;
 }
 
 
@@ -115,4 +115,10 @@
     justify-content:center;
     text-align: center;
     
+    
+}
+
+.button{
+    background-color: #f8fafc;
+    border-width: 0px;
 }

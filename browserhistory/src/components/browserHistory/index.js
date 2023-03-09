@@ -15,7 +15,7 @@ return (
             <h1 className="title">{title}</h1>
             <a href={domainUrl} className="domain-url">{domainUrl}</a>
         </div>
-        <button type="button" onClick={deleteHistryitem}>
+        <button type="button" onClick={deleteHistryitem} className="button">
             <img src="https://assets.ccbp.in/frontend/react-js/delete-img.png" 
             alt="delete" className="delete-button"/>
         </button>
