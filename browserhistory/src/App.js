@@ -16,21 +16,21 @@ const initialhistoryList=[
     timeAccessed: "06:45 PM",
     logoUrl:"https://res.cloudinary.com/dpny4vmnc/image/upload/v1678388454/facebook_bw32rk.png",
     title:"Facebook- login or signup",
-    domainUrl:"https://www.instagram.com/"
+    domainUrl:"https://www.facebook.com/"
   },
   {
     id:3,
     timeAccessed: "05:45 PM",
     logoUrl:"https://res.cloudinary.com/dpny4vmnc/image/upload/v1678388424/twitter_a8nt8r.png",
     title:"Twitter",
-    domainUrl:"https://www.instagram.com/"
+    domainUrl:"https://twitter.com/"
   },
   {
     id:4,
     timeAccessed: "04:00 PM",
     logoUrl:"https://res.cloudinary.com/dpny4vmnc/image/upload/v1678388467/github_dek0ek.png",
     title:"github",
-    domainUrl:"https://www.instagram.com/"
+    domainUrl:"https://github.com/"
   }
 ]
 class App extends Component{
