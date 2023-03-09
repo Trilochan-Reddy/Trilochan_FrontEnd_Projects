@@ -21,11 +21,20 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 10px;
+}
+.title-url-conatainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
 }
 
 .image-logo{
     height: 25px;
     width: 25px;
+    margin-right: 10px;
 }
 
 .div-container-for-unordered-list{
@@ -33,12 +42,15 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
+    
 }
 
 .unordered-list-container{
-    background-color: red;
+    background-color:#f8fafc;
     width: 90%;
     border-radius: 20px;
+    padding: 50px;
     
 }
 .search-img-container{
@@ -60,4 +72,47 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     width: 350px;
+}
+
+.time-accessed{
+    color:#475569;
+    font-family: "Roboto";
+    font-size:20px ;
+    margin-right: 20px;
+
+}
+
+.title{
+    color:#475569;
+    font-family: "Roboto";
+    font-size:20px ;
+    margin-right: 20px;
+    font-weight: bold;
+    /* width: 7%; */
+}
+
+
+.domain-url{
+    color:#64748b;
+    font-family: "Roboto";
+    font-size:20px ;
+    margin-right: 20px;
+      
+}
+
+
+.delete-button{
+    height: 12px;
+    width: 12px;
+}
+
+
+.nohistory-container{
+    color: black;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    
 }

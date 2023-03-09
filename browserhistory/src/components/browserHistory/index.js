@@ -9,13 +9,15 @@ const BrowserHistory =(props)=>{
     }
 return (
     <li className="container">
-        <h1>{timeAccessed}</h1>
-        <img src={logoUrl} alt="domain logo" className="image-logo"/>
-        <h1>{title}</h1>
-        <h1>{domainUrl}</h1>
+        <h1 className="time-accessed">{timeAccessed}</h1>
+        <div className="title-url-conatainer">
+            <img src={logoUrl} alt="domain logo" className="image-logo"/>
+            <h1 className="title">{title}</h1>
+            <a href={domainUrl} className="domain-url">{domainUrl}</a>
+        </div>
         <button type="button" onClick={deleteHistryitem}>
             <img src="https://assets.ccbp.in/frontend/react-js/delete-img.png" 
-            alt="delete button" />
+            alt="delete" className="delete-button"/>
         </button>
     </li>
 )
