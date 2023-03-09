@@ -76,7 +76,7 @@ class App extends Component{
         <div className="div-container-for-unordered-list">
           <ul className="unordered-list-container" >
           {searchedResultsList.length !==0?
-            searchedResultsList.map((eachitem) =><BrowserHistory key={eachitem.id} onDeleteHistory={this.onDeleteHistory}eachitem={eachitem}/>)
+            searchedResultsList.map((eachitem) =><BrowserHistory key={eachitem.id} onDeleteHistory={this.onDeleteHistory} eachitem={eachitem}/>)
           : (<div className="nohistory-container">
             <h1> There is no history to view</h1>
             </div>)}
