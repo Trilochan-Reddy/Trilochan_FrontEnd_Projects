@@ -70,9 +70,11 @@ let crickName1=new Cricketer("virat","kohli");
 let crickName2=new Cricketer("sachin","Tendulkar");
 console.log(crickName1.displayFullName());
 console.log(crickName2);
+console.log("Cricketer function prototype");
 console.log(Cricketer.prototype);
 console.log(Object.getPrototypeOf(crickName1)===Object.getPrototypeOf(crickName2));
 console.log(Object.getPrototypeOf(crickName1));
 
 // accessing own properties
+console.log("accessing own properties");
 console.log(Object.getOwnPropertyNames(crickName1));

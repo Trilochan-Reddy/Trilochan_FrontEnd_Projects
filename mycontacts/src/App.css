@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.contacts-table{
+  
+}
+
+.responsive-container{
+  
+  
+}
+
+.heading{
+  
+  padding-left: 40px;
+}
+
+.contact-form-container{
+  padding-left: 40px;
+  
+}
+
+.input{
+  height: 30px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border-color: black;
+  border-style: thin;
+  padding: 10px;
+  width: 30%;
+  
+}
+
+.button{
+  height: 55px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  border-width: 0px;
+  width: 138px;
+}
+
+.table-header{
+    width: 80%;
+    
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: blue; */
+    
+
+}
+
+.table-header-cell{
+  width: 50%;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  height: 40px;
+  margin-bottom: 0px;
+  background-color: bisque;
+  padding-top: 20px; 
+  padding-left: 20px;
+  font-weight: bold;
+  
+}
+
+.name-column{
+  
+}
