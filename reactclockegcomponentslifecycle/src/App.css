@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container{
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+  padding-top: 50px;
+  
+  
+}
+
+
+.toggle-button{
+  background-color: green;
+  color: white;
+  height: 40px;
+  width: 138px;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 30px;
+}
