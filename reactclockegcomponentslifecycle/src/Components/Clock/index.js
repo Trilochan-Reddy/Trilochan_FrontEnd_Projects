@@ -20,7 +20,7 @@ class Clock extends Component {
     console.log("componentwillunmount is called");
     clearInterval(this.timerId);
   }
-  
+   
   tick =() =>{
     this.setState({
         date:new Date()
