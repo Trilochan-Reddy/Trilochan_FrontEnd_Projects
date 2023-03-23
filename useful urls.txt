@@ -134,3 +134,11 @@ delete image : https://assets.ccbp.in/frontend/react-js/delete-img.png
 
 react-developer-tools:
 react developer tools is a chrome extension which you can use to debug a react application
+
+
+installs react-router-dom and adds it to package.json file: 
+npm install react-router-dom --save
+
+
+to kill port:
+npx kill-port 3000
