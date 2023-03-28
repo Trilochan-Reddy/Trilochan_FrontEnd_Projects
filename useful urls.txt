@@ -142,3 +142,7 @@ npm install react-router-dom --save
 
 to kill port:
 npx kill-port 3000
+
+
+ccbp api for blogs data:
+https://apis.ccbp.in/blogs
