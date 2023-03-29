@@ -1,0 +1,40 @@
+.bloglist-data-container{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bloglist-img-logo{
+    height: 300px;
+    width: 300px;
+    
+}
+
+.bloglist-heading{
+    color: darkgreen;
+    font-family: "Roboto";
+    text-align: start;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.bloglist-description{
+    color: mediumorchid;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 300;
+    text-align: start;
+    background-color: red;
+    
+}
+.ul-container{
+    text-align: center;
+    
+    width: 70%;
+
+}

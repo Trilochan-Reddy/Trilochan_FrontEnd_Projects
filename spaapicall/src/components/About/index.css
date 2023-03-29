@@ -1,0 +1,28 @@
+.about-data-container{
+    text-align: center;
+    background-color: whitesmoke;
+    height: 100vh;
+    padding: 20px;
+    
+}
+.about-image-logo{
+    height: 300px;
+    width: 300px;
+    
+}
+
+.about-heading{
+    color: mediumseagreen;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.about-description{
+    color: mediumorchid;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 300;
+    padding: 2px;
+}

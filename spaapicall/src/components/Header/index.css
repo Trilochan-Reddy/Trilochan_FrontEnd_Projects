@@ -1,0 +1,32 @@
+.header-container{
+    background-color: paleturquoise;
+    padding: 20px;
+}
+.header-heading{
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: goldenrod;
+    text-align: center;
+}
+.nav-items-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.nav-item{
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: darkseagreen;
+    margin-right: 10px;
+}
+
+
+.linl-styling{
+    text-decoration: none;
+}

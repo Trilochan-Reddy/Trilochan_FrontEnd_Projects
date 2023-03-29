@@ -1,0 +1,66 @@
+.blog-item-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.topic-image{
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.topic-author-container{
+    
+}
+
+.topic-title{
+    color:forestgreen;
+    text-align: start;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.topic-description{
+    color:slateblue;
+    
+    font-family: "Roboto";
+    font-size: 25px;   
+    text-align: start;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.avatar-img{
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.author-name{
+    color:forestgreen;
+    text-align: start;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+.author-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    
+    
+}
+
+.eachitem-link{
+    text-decoration:none;
+}
