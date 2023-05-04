@@ -21,6 +21,7 @@ class Clock extends Component {
     clearInterval(this.timerId);
   }
    
+  
   tick =() =>{
     this.setState({
         date:new Date()
