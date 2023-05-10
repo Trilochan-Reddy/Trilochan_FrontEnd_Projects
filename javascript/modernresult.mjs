@@ -1,3 +1,4 @@
-import add from"./moderncalculator.mjs"
+import {add,sub} from"./moderncalculator.mjs"
 
 console.log(add(2,3));
+console.log(sub(2,3));
